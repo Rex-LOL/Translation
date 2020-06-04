@@ -14,9 +14,9 @@
         android:text="@string/main_btnLabel_openimf"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.468" />
 
     <Button
         android:id="@+id/main_btn_openSc"
@@ -40,7 +40,8 @@
         android:text="@string/main_btnLabel_opentran"
         app:layout_constraintBottom_toTopOf="@+id/main_btn_openImf"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.852" />
+        app:layout_constraintVertical_bias="0.789" />
 </androidx.constraintlayout.widget.ConstraintLayout>
