@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Finaltest Application</string>
+    <string name="main_btnLabel_opentran">Translation</string>
+    <string name="main_btnLabel_openimf">Imformation</string>
+    <string name="main_btnLabel_opensc">Unfamiliar Words</string>
+    <string name="hint_tran">Please input words you want to translate</string>
+    <string name="tran_text">Translation Result Show Area</string>
+    <string name="imf_text_tittle">Imformation Page</string>
+    <string name="imf_text_Result">Result Show :</string>
+    <string name="imf_text_choose">Choose Test Type :</string>
+    <string name="imf_btnLabel_IELTS">IELTS</string>
+    <string name="imf_btnLabel_CET">CET4/6</string>
+    <string name="imf_btnLabel_TOEFL">TOEFL</string>
+    <string name="tran_btnLabel_save">Save</string>
+    <string name="tran_btnLabel_tran">Translate</string>
+</resources>
