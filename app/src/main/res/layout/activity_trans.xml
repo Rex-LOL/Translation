@@ -11,26 +11,26 @@
         android:id="@+id/trans_input"
         android:layout_width="367dp"
         android:layout_height="76dp"
+        android:background="@android:drawable/edit_text"
+        android:enabled="true"
+        android:gravity="top"
         android:hint="@string/hint_tran"
+        android:inputType="textMultiLine"
+        android:maxLines="10"
+        android:minLines="8"
+        android:scrollbars="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.363"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.087"
-        android:enabled="true"
-        android:gravity="top"
-        android:inputType="textMultiLine"
-        android:minLines="8"
-        android:maxLines="10"
-         android:scrollbars="vertical"
-         android:background="@android:drawable/edit_text"
-    />
+        app:layout_constraintVertical_bias="0.087" />
 
     <Button
         android:id="@+id/tran_btn_tran"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:onClick="onFanyi"
         android:text="@string/tran_btnLabel_tran"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -41,6 +41,7 @@
 
     <TextView
         android:id="@+id/trans_output"
+        style="@style/TextAppearance.AppCompat.Display1"
         android:layout_width="385dp"
         android:layout_height="159dp"
         android:text="@string/tran_text"
