@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#F7F9FC"
     android:orientation="vertical"
     tools:context=".TransActivity">
 
@@ -44,7 +45,11 @@
         style="@style/TextAppearance.AppCompat.Display1"
         android:layout_width="385dp"
         android:layout_height="159dp"
-        android:text="@string/tran_text"
+        android:background="@drawable/textview_border"
+        android:gravity="center"
+        android:text=""
+        android:textColor="#0D0E0E"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.502"

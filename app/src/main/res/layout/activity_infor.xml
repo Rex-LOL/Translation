@@ -48,6 +48,7 @@
         android:id="@+id/imf_btn_CET"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:onClick="onSearch"
         android:text="@string/imf_btnLabel_CET"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -60,6 +61,7 @@
         android:id="@+id/imf_btn_IELTS"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:onClick="onSearch"
         android:text="@string/imf_btnLabel_IELTS"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/imf_btn_TOEFL"
@@ -72,6 +74,7 @@
         android:id="@+id/imf_btn_TOEFL"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:onClick="onSearch"
         android:text="@string/imf_btnLabel_TOEFL"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -83,11 +86,19 @@
     <LinearLayout
         android:id="@+id/LLO1"
         android:layout_width="409dp"
-        android:layout_height="494dp"
+        android:layout_height="400dp"
         android:orientation="horizontal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView3"></LinearLayout>
+        app:layout_constraintTop_toBottomOf="@+id/textView3"
+        app:layout_constraintVertical_bias="1.0">
+
+        <ListView
+            android:id="@+id/resultlist"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
