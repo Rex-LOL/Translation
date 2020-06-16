@@ -7,12 +7,39 @@
     tools:context=".ScActivity">
 
     <TextView
-        android:id="@+id/textView"
-        android:layout_width="162dp"
-        android:layout_height="153dp"
-        android:text="sc"
+        android:id="@+id/sc_title"
+        android:layout_width="303dp"
+        android:layout_height="73dp"
+        android:text="@string/sc_title_text"
+        android:gravity="center"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.024" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onDelete"
+        android:text="@string/sc_btn_label"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sc_vocabulary_list"
+        app:layout_constraintVertical_bias="0.27" />
+
+    <ListView
+        android:id="@+id/sc_vocabulary_list"
+        android:layout_width="349dp"
+        android:layout_height="421dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sc_title"
+        app:layout_constraintVertical_bias="0.18">
+
+    </ListView>
 </androidx.constraintlayout.widget.ConstraintLayout>

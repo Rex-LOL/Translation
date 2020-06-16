@@ -13,4 +13,6 @@
     <string name="imf_btnLabel_TOEFL">TOEFL</string>
     <string name="tran_btnLabel_save">Save</string>
     <string name="tran_btnLabel_tran">Translate</string>
+    <string name="sc_btn_label">Delete</string>
+    <string name="sc_title_text">Vocabulary Collection</string>
 </resources>

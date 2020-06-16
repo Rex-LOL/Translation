@@ -1,10 +1,10 @@
 package com.swufe.finaltestapplication;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
         Intent intent;
         if(btn.getId()==R.id.main_btn_openTran){
             intent = new Intent(MainActivity.this, TransActivity.class);
-        }else if(btn.getId()==R.id.main_btn_openImf){
+        }else if(btn.getId()==R.id.main_btn_openInf){
             intent = new Intent(MainActivity.this, InforActivity.class);
         }else{
             intent = new Intent(MainActivity.this, ScActivity.class);

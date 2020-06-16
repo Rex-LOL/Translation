@@ -61,6 +61,7 @@
         android:id="@+id/tran_btn_save"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:onClick="onSave"
         android:text="@string/tran_btnLabel_save"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
